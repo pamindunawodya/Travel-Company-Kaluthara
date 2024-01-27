@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vehicle-service" />
+        <module name="service-registration" />
+        <module name="api-gateway" />
+        <module name="guide-service" />
+        <module name="Travel-Package-Service" />
+        <module name="user-service" />
+        <module name="Hotel-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="11" />
+      <module name="guide-service" target="11" />
+      <module name="Hotel-service" target="11" />
+      <module name="service-registration" target="11" />
+      <module name="Travel-Package-Service" target="11" />
+      <module name="user-service" target="11" />
+      <module name="vehicle-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Hotel-service" options="-parameters" />
+      <module name="Travel-Package-Service" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="guide-service" options="-parameters" />
+      <module name="service-registration" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="vehicle-service" options="-parameters" />
+    </option>
+  </component>
+</project>

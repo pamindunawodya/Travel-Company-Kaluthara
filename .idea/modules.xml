@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Backend/Backend.iml" filepath="$PROJECT_DIR$/Backend/Backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Frontend/Frontend.iml" filepath="$PROJECT_DIR$/Frontend/Frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/Hotel-service/Hotel-service.iml" filepath="$PROJECT_DIR$/Backend/Hotel-service/Hotel-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/Travel-Package-Service/Travel-Package-Service.iml" filepath="$PROJECT_DIR$/Backend/Travel-Package-Service/Travel-Package-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/Backend/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/guide-service/guide-service.iml" filepath="$PROJECT_DIR$/Backend/guide-service/guide-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/service-registration/service-registration.iml" filepath="$PROJECT_DIR$/Backend/service-registration/service-registration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/user-service/user-service.iml" filepath="$PROJECT_DIR$/Backend/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/vehicle-service/vehicle-service.iml" filepath="$PROJECT_DIR$/Backend/vehicle-service/vehicle-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+      routes:
+        - id: package-service
+          uri: lb://PACKAGE-SERVICE
+          predicates:
+            - Path=/Mapping/api/travel/package/**
+
+
+        - id: guide-service
+          uri: lb://GUIDE-SERVICE
+          predicates:
+            - Path=/Mapping/api/guide/**
+
+        - id: user-service
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/Mapping/api/user/**
+
+
+        - id: vehicle-service
+          uri: lb://VEHICLE-SERVICE
+          predicates:
+            - Path=/Mapping/api/vehicle/**
+
+
+        - id: hotel-service
+          uri: lb://HOTEL-SERVICE
+          predicates:
+              - Path=/Mapping/api/hotel/**

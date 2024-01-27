@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backend/Hotel-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backend/Travel-Package-Service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backend/api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backend/guide-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backend/service-registration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backend/user-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Backend/vehicle-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Frontend/Admin-Dashboad-Travel-Package-Project" vcs="Git" />
+  </component>
+</project>
